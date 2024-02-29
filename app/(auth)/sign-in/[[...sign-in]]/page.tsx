@@ -1,7 +1,9 @@
+import { SignIn } from "@clerk/nextjs";
+
 const signIn = () => {
   return (
     <div>
-      <h1> Sign In</h1>
+      <SignIn />
     </div>
   );
 };

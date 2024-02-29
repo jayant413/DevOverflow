@@ -1,7 +1,11 @@
+import { UserButton } from "@clerk/nextjs";
+
 const Home = () => {
   return (
     <div>
-      <span>Home</span>
+      <span>
+        <UserButton />
+      </span>
     </div>
   );
 };
