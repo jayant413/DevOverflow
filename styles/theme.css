@@ -1,104 +1,106 @@
-/* > styles/theme.css */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer utilities {
   .background-light850_dark100 {
-    @apply bg-light-850 dark:bg-dark-100;
+    @apply bg-white dark:bg-black;
+  }
+
+  .text-light900_dark100 {
+    @apply text-white dark:text-black;
   }
 
   .background-light900_dark200 {
-    @apply bg-light-900 dark:bg-dark-200;
+    @apply bg-white dark:bg-black;
   }
 
   .background-light900_dark300 {
-    @apply bg-light-900 dark:bg-dark-300;
+    @apply bg-white dark:bg-black;
   }
 
   .background-light800_darkgradient {
-    @apply bg-light-800 dark:dark-gradient;
+    @apply bg-white dark:bg-black;
   }
 
   .background-light800_dark400 {
-    @apply bg-light-800 dark:bg-dark-400 !important;
+    @apply bg-white dark:bg-black !important;
   }
 
   .background-light700_dark400 {
-    @apply bg-light-700 dark:bg-dark-400;
+    @apply bg-white dark:bg-black;
   }
 
   .background-light700_dark300 {
-    @apply bg-light-700 dark:bg-dark-300;
+    @apply bg-white dark:bg-black;
   }
 
   .background-light800_dark400 {
-    @apply bg-light-800 dark:bg-dark-400;
+    @apply bg-white dark:bg-black;
   }
 
   .background-light800_dark300 {
-    @apply bg-light-800 dark:bg-dark-300 !important;
+    @apply bg-white dark:bg-black !important;
   }
 
   .text-dark100_light900 {
-    @apply text-dark-100 dark:text-light-900 !important;
+    @apply text-black dark:text-white !important;
   }
 
   .text-dark200_light900 {
-    @apply text-dark-200 dark:text-light-900;
+    @apply text-black dark:text-white;
   }
 
   .text-dark200_light800 {
-    @apply text-dark-200 dark:text-light-800 !important;
+    @apply text-black dark:text-white !important;
   }
 
   .text-dark300_light700 {
-    @apply text-dark-300 dark:text-light-700;
+    @apply text-black dark:text-white;
   }
 
   .text-dark400_light700 {
-    @apply text-dark-400 dark:text-light-700;
+    @apply text-black dark:text-white;
   }
 
   .text-dark500_light700 {
-    @apply text-dark-500 dark:text-light-700 !important;
+    @apply text-black dark:text-white !important;
   }
 
   .text-dark500_light500 {
-    @apply text-dark-500 dark:text-light-500;
+    @apply text-black dark:text-white;
   }
 
   .text-dark300_light900 {
-    @apply text-dark-300 dark:text-light-900 !important;
+    @apply text-black dark:text-white !important;
   }
 
   .text-dark400_light800 {
-    @apply text-dark-400 dark:text-light-800;
+    @apply text-black dark:text-white;
   }
 
   .text-light400_light500 {
-    @apply text-light-400 dark:text-light-500 !important;
+    @apply text-white dark:text-white !important;
   }
 
   .text-dark400_light500 {
-    @apply text-dark-400 dark:text-light-500;
+    @apply text-black dark:text-white;
   }
 
   .text-dark400_light900 {
-    @apply text-dark-400 dark:text-light-900 !important;
+    @apply text-black dark:text-white !important;
   }
 
   .text-light400_light500 {
-    @apply text-light-400 dark:text-light-500 !important;
+    @apply text-white dark:text-white !important;
   }
 
-  .light-border {
-    @apply border-light-800 dark:border-dark-300;
+  .whiteder {
+    @apply border-white dark:border-black;
   }
 
-  .light-border-2 {
-    @apply border-light-700 dark:border-dark-400 !important;
+  .whiteder-2 {
+    @apply border-white dark:border-black !important;
   }
 
   .h1-bold {
@@ -178,7 +180,7 @@
   }
 
   .placeholder {
-    @apply placeholder:text-light-400 dark:placeholder:text-light-500;
+    @apply placeholder:text-white dark:placeholder:text-white;
   }
 
   .invert-colors {
@@ -186,18 +188,18 @@
   }
 
   .shadow-light100_dark100 {
-    @apply shadow-light-100 dark:shadow-dark-100;
+    @apply shadow-white dark:shadow-black;
   }
 
   .shadow-light100_darknone {
-    @apply shadow-light-100 dark:shadow-none;
+    @apply shadow-white dark:shadow-none;
   }
 
   .primary-gradient {
     background: linear-gradient(129deg, #ff7000 0%, #e2995f 100%);
   }
 
-  .dark-gradient {
+  .blackdient {
     background: linear-gradient(
       232deg,
       rgba(23, 28, 35, 0.41) 0%,
